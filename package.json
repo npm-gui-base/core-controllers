@@ -1,0 +1,31 @@
+{
+  "name": "npm-gui-base-core-controllers",
+  "version": "1.0.0",
+  "description": "Graphic User Interface for NPM packages/tasks for front and back -end users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha ./controller/**/*.test.js"
+  },
+  "author": "Paweł Stefański",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "cross-spawn": "^4.0.2",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.16.0",
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10",
+    "rimraf": "^2.5.4",
+    "rx": "^4.1.0",
+    "should": "^11.1.0",
+    "should-sinon": "0.0.5",
+    "sinon": "^1.17.6",
+    "sinon-stub-promise": "^2.1.0",
+    "ws": "^1.1.1"
+  },
+  "dependencies": {
+    "npm-gui-base-core": "git+https://github.com/npm-gui-base/core.git"
+  }
+}
