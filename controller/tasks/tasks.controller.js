@@ -1,8 +1,8 @@
-const NPMGUICore = require('npm-gui-base-core');
+const NpmGuiCore = require('npm-gui-base-core');
 
-const CommandsService = NPMGUICore.Service.Commands;
+const CommandsService = NpmGuiCore.Service.Commands;
 
-const PackageJson = NPMGUICore.Model.PackageJson;
+const PackageJson = NpmGuiCore.Model.PackageJson;
 
 module.exports = {
   whenGet(req, res) {

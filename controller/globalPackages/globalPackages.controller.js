@@ -1,7 +1,7 @@
-const NPMGUICore = require('npm-gui-base-core');
+const NpmGuiCore = require('npm-gui-base-core');
 
-const UtilsService = NPMGUICore.Service.Utils;
-const CommandsService = NPMGUICore.Service.Commands;
+const UtilsService = NpmGuiCore.Service.Utils;
+const CommandsService = NpmGuiCore.Service.Commands;
 
 // this also need service or be in modules service
 module.exports = {

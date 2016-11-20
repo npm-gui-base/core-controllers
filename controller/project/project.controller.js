@@ -1,7 +1,7 @@
 const path = require('path');
-const NPMGUICore = require('npm-gui-base-core');
+const NpmGuiCore = require('npm-gui-base-core');
 
-const ProjectService = NPMGUICore.Service.Project;
+const ProjectService = NpmGuiCore.Service.Project;
 
 
 module.exports = {

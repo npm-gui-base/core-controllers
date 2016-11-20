@@ -1,6 +1,6 @@
-const NPMGUICore = require('npm-gui-base-core');
+const NpmGuiCore = require('npm-gui-base-core');
 
-const CommandsService = NPMGUICore.Service.Commands;
+const CommandsService = NpmGuiCore.Service.Commands;
 
 const fs = require('fs');
 

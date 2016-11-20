@@ -1,9 +1,9 @@
-const NPMGUICore = require('npm-gui-base-core');
+const NpmGuiCore = require('npm-gui-base-core');
 
-const UtilsService = NPMGUICore.Service.Utils;
-const CommandsService = NPMGUICore.Service.Commands;
-const ProjectService = NPMGUICore.Service.Project;
-const DependenciesService = NPMGUICore.Service.Dependencies;
+const UtilsService = NpmGuiCore.Service.Utils;
+const CommandsService = NpmGuiCore.Service.Commands;
+const ProjectService = NpmGuiCore.Service.Project;
+const DependenciesService = NpmGuiCore.Service.Dependencies;
 
 module.exports = {
   whenPut(req, res) {
