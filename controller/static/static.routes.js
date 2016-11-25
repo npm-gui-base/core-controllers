@@ -4,7 +4,7 @@ const path = require('path');
 const staticRouter = express.Router();
 
 staticRouter.use(express.static(
-  path.normalize(`${global.appRoot}/web-client`),
+  path.normalize(`${global.staticRoot}`),
   {
     index: ['index.html', 'index.htm'],
   }));
