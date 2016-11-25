@@ -3,12 +3,14 @@ const path = require('path');
 
 const staticRouter = express.Router();
 
-staticRouter.use(express.static(
-  path.normalize(`${global.staticRoot}`),
-  {
-    index: ['index.html', 'index.htm'],
-  }));
+module.exports = (staticPath) => {
+  staticRouter.use(express.static(
+    `${staticPath}`,
+    {
+      index: ['index.html', 'index.htm'],
+    }));
 
-staticRouter.use('/node_modules', express.static('node_modules'));
+  staticRouter.use('/node_modules', express.static('node_modules'));
 
-module.exports = staticRouter;
+  return staticRouter;
+};
